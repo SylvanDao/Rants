@@ -21,10 +21,10 @@ Mô hình gây quỹ của Flying Tulip được mô tả là một trong nhữn
 1. **Vốn Góp và Kho Bạc (Treasury):** Các nhà đầu tư đóng góp stablecoin, ETH, hoặc các tài sản sinh lời khác (ví dụ: stablecoin, BTC, ETH, SOL, AVAX). Số vốn này đi thẳng vào kho bạc (treasury) của giao thức.
 2. **Sử dụng Vốn (Cash Cow Concept):** Thay vì chi tiêu trực tiếp số tiền huy động được như các dự án thông thường, FT sẽ triển khai vốn này vào các chiến lược DeFi rủi ro thấp để **kiếm lợi suất**. **Chính lợi suất này** mới là nguồn tài trợ cho các hoạt động ban đầu của giao thức và các khoản trợ cấp ban đầu.
 3. **Chi phí Thực sự cho Nhà đầu tư VC:** Khoản "đầu tư" thực chất là **chi phí cơ hội** (opportunity cost)—lợi suất (~4% hàng năm) mà nhà đầu tư từ bỏ nếu họ tự gửi vốn vào DeFi.
-
+![Flying tulip investment flow](https://substackcdn.com/image/fetch/$s_!KGlx!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc7ce3fc4-354c-4f2d-b59a-ef7d4a5210b7_6663x3019.png)
 ### B. Căn chỉnh Lợi ích và Trách nhiệm (Accountability and Alignment)
 
-1. **Đội ngũ Phát triển:** Đội ngũ không nhận được token ngay từ đầu. **Mặt lợi nhuận của họ CHỈ đến từ một phần doanh thu của giao thức** (phí thực tế) được tạo ra bởi một sản phẩm hoạt động hiệu quả. Nếu giao thức không hoạt động và không thu hút người dùng, đội ngũ sẽ không nhận được gì.
+1. **Đội ngũ Phát triển:** Đội ngũ không nhận được token ngay từ đầu. **Mặt lợi nhuận của họ CHỈ đến từ một phần doanh thu của giao thức** (phí thực tế) được tạo ra bởi một sản phẩm hoạt động hiệu quả. Nếu giao thức không hoạt động và không thu hút người dùng, đội ngũ sẽ không nhận được gì. ![if the team has no tokens at TGE, how are they getting them?](https://substackcdn.com/image/fetch/$s_!w3Lp!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa55bfc63-b57c-489e-811e-a480be6b78b3_6118x2197.png)
 2. **Lòng tin và Danh tiếng:** Mô hình này được xây dựng xung quanh sự cần thiết phải huy động một lượng lớn vốn, thường được neo giữ bởi một người hoặc đội ngũ chủ chốt có danh tiếng, ảnh hưởng và lòng tin, như Andre Cronje.
 
 ## III. Cơ chế và Tiện ích Token FT (Token Utility and Mechanism)
@@ -44,10 +44,10 @@ Cơ chế giảm phát được củng cố bằng cả hành động đổi (re
 1. **Thực hiện Quyền chọn (Exercising the Put/Redemption):**
     
     - Khi nhà đầu tư thực hiện quyền chọn bán, họ trả lại token và nhận lại vốn ban đầu.
-    - **Token bị đốt cháy** (burned), làm giảm nguồn cung.
+    - **Token bị đốt cháy** (burned), làm giảm nguồn cung. ![Scenerio 2: Exercising the Put/Redemption](https://substackcdn.com/image/fetch/$s_!-nWa!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F34254439-bdbc-490e-8d3d-70bb82538cbe_5626x2605.png)
 2. **Bán trên Thị trường Mở (Selling on Open Market):**
     
-    - Nếu nhà đầu tư bán token trên thị trường mở (vì họ có lợi nhuận), **sự bảo vệ của quyền chọn bán sẽ biến mất** (vô hiệu).
+    - Nếu nhà đầu tư bán token trên thị trường mở (vì họ có lợi nhuận), **sự bảo vệ của quyền chọn bán sẽ biến mất** (vô hiệu). ![Scenerio 1: investors sell or transfer NFT](https://substackcdn.com/image/fetch/$s_!7Spl!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F04c9bae1-2615-4995-ad6d-7125d319af51_5462x2605.png)
     - Vốn ban đầu tương ứng với số token đó được giải phóng và được chuyển thẳng sang việc **mua lại và đốt** (buy and burn) thêm token từ thị trường.
     - Hành động mua lại và đốt này được sử dụng để bù đắp cho việc giảm giá do hành động bán và giảm sự biến động.
 3. **Phân bổ Cung ứng (Supply Allocation):** 100% token được lưu hành (float) nằm trong tay nhà đầu tư ngay từ khi ra mắt, không có sự khan hiếm giả tạo hay phân bổ lớn cho đội ngũ.
@@ -82,3 +82,5 @@ Flying Tulip là một thử nghiệm và không phải là một canh bạc kh�
 ## Nguồn
 
 - https://research.hazeflow.xyz/p/flying-tulip-using-yield-instead
+- https://x.com/Lemniscap/status/1972711856646082599
+- https://x.com/delitzer/status/1972783089865933149
