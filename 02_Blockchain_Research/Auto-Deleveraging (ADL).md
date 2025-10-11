@@ -1,4 +1,5 @@
 https://x.com/0xdoug/status/1976850615621107743
+
 Đây là các ghi chú bài học toàn diện về cơ chế Auto-Deleveraging (ADL) trong bối cảnh xây dựng sàn giao dịch Hợp đồng Vĩnh cửu (Perp DEX), tập trung vào các bài học về thiết kế kinh doanh và kỹ thuật được rút ra từ các nguồn đã cung cấp.
 
 ---
